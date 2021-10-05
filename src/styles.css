@@ -1,0 +1,185 @@
+body {
+  font-family: "Playfair Display", serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  background-color: white;
+}
+
+.hero {
+  background-color: #1c1d25;
+  height: 100vh;
+  color: white;
+  font-size: 40px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  width: 500px;
+  justify-content: space-around;
+  font-size: 30px;
+}
+
+li {
+  width: 200px;
+  text-decoration: none;
+}
+.hero-area {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+h1 {
+  font-size: 90px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 55px;
+  margin: 0%;
+}
+p {
+  margin: 0;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.button {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: brown;
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
+  padding-top: 6px;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: brown;
+}
+
+.button:active {
+  background-color: cyan;
+  color: cyan;
+}
+
+.socials {
+  padding-bottom: 200px;
+}
+
+.logo {
+  height: 150px;
+  margin: 40px;
+}
+
+.social {
+  margin: 25px;
+  display: block;
+}
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 70px;
+}
+
+.sub-section-alternative {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 70px;
+}
+
+.headshot {
+  width: 300px;
+  border-radius: 150px;
+}
+
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-card {
+  width: 300px;
+  height: 500px;
+  border: 1px solid black;
+  box-shadow: 5px 5px 20px rgb(113, 108, 108);
+  margin: 10px;
+}
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.subtext {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 250px;
+  border-radius: 125px;
+}
+
+hr {
+  margin-left: 200px;
+  margin-right: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: brown;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu-button {
+  display: none;
+}
+@media only screen and (max-width: 1000px) {
+  .menu-button {
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    display: block;
+  }
+  ul {
+    display: none;
+  }
+}
